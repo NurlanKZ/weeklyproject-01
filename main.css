@@ -1,0 +1,512 @@
+body {
+    margin: 0px;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 1440px;
+    height: 2386px;
+
+    background: #F1F1F1;
+}
+
+.kanit {
+    font-family: 'Kanit';
+    font-style: normal;
+}
+
+.inter {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 80px;
+    gap: 748px;
+
+    width: 1440px;
+    height: 62px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 114.68px;
+    height: 22px;
+}
+
+.logoname {
+    margin-top:0px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 410px;
+    height: 38px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    height: 38px;
+
+    border-radius: 100px;
+    border: 0px;
+}
+
+.menu .button:nth-child(4) {
+    background: rgba(8, 30, 52, 0.12);
+}
+
+.menu .button p {
+    height: 18px;
+}
+
+#home {
+    width: 40px;
+}
+
+#about {
+    width: 61px;
+}
+
+#how {
+    width: 87px;
+}
+
+#get {
+    width: 78px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 80px;
+    gap: 32px;
+
+    width: 1440px;
+    height: 620px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 495px;
+    height: 366px;
+}
+
+.slogan {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    margin: 0px;
+}
+
+.buttonblue {
+    background: #712FFF;
+}
+
+.buttonblue p {
+    height: 18px;
+    color: #ffffff;
+}
+
+.text0 {
+    width: 495px;
+    height: 44px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.description button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 144px;
+    height: 50px;
+}
+
+.description .photo1 {
+    position: absolute;
+    height: 420px;
+    width: 619px;
+    left: 740px;
+    top: 162px;
+    border-radius: 32px;
+}
+
+.howitworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 86px;
+
+    width: 1280px;
+    height: 562px;
+
+    background: #E1DEE7;
+    border-radius: 32px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    height: 84px;
+    width: 351px;
+    left: 544.5px;
+    top: 103px;
+    border-radius: 0px;
+}
+
+.subtext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    width: 169px;
+    height: 16px;
+}
+
+.hiwtext {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+
+    width: 351px;
+    height: 56px;
+    margin: 0px;
+}
+
+.frame18 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1280px;
+    height: 186px;
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 400px;
+    height: 186px;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 64px;
+    height: 64px;
+}
+
+.words1 {
+    width: 400px;
+    height: 28px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.words2 {
+    width: 400px;
+    height: 22px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 128px;
+
+    width: 1440px;
+    height: 422px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 757px;
+    height: 222px;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 757px;
+    height: 50px;
+}
+
+.field {
+    box-sizing: border-box;
+    
+
+    width: 619px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    border-radius: 12px;
+}
+
+.search {
+    position: absolute;
+    width: 495px;
+    height: 22px;
+    left: 129px;
+    top: 1493px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    opacity: 0.4;
+}
+
+.searchimg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 93px;
+    top: 1507px;
+}
+
+.find_job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 106px;
+    height: 50px;
+}
+
+.cv-submission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 80px;
+    gap: 128px;
+    
+    width: 1440px;
+    height: 548px;
+}
+
+.photo2 {
+    width: 619px;
+    height: 420px;
+
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 495px;
+    height: 214px;
+}
+
+.yourCV {
+    width: 500px;
+    height: 56px;
+
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+
+    display: flex;
+    align-items: center;
+    text-align: start;
+
+    color: #000000;
+
+}
+
+.best_tool {
+    width: 495px;
+    height: 44px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+}
+
+.uploadbutton {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 114px;
+    height: 50px;
+
+    border-radius: 100px;
+    border: 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 32px 80px;
+    gap: 32px;
+
+    width: 1280px;
+    height: 172px;
+
+    background: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.footer button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: white;
+    border: 0px;
+}
+
+.frame22 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 105px;
+
+    width: 1280px;
+    height: 38px;
+
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 372px;
+    height: 38px;
+}
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 803px;
+    height: 38px;
+}
+
+.credits p {
+    color: #081E34;
+    opacity: 0.5;
+}
+
+.made {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 272px;
+    height: 38px;
+
+    border-radius: 100px;
+}
